@@ -1,0 +1,41 @@
+// compress: true
+
+@import "vars";
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+html{
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 1rem;
+
+}
+*, *::before, *::after {
+    font-family: Lato, Arial;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/header-logo";
+@import "blocks/header-phone";
+@import "blocks/header-partners";
+@import "blocks/main";
+@import "blocks/footern";
+@import "blocks/form";
+@import "blocks/title";
